@@ -1,9 +1,12 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
+#include <chrono>
 using namespace cv;
 using namespace std;
+using namespace std::chrono;
 
 int main(int argc, char** argv) {
+    auto start = high_resolution_clock::now();
     // read the image file.
     //(B,G,R)
     if ( argc != 3 )
@@ -33,6 +36,11 @@ int main(int argc, char** argv) {
     }
     // 0.07 B + 0.72 G + 0.21 R.
     imwrite(string(argv[2]), newImage);
+
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+    cout << "Tiempo de ejecución: " << duration.count() << " microsegundos" << endl;
+
     namedWindow(argv[2], WINDOW_AUTOSIZE );
     imshow(argv[2], newImage);
     waitKey(0);
