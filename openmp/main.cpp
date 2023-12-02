@@ -41,7 +41,7 @@ int main(int argc, char** argv) {
 
     #pragma omp parallel num_threads(n_threads)
     {
-        #pragma omp for private(c, gray)
+        #pragma omp for private(c,gray)
         for (r = 0; r < image.rows; r++) {
             for (c = 0; c < image.cols; c++) {
                 Point3_<uchar>* p = image.ptr<Point3_<uchar>>(r, c);
