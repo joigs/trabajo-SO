@@ -2,20 +2,6 @@
 
 El repositorio esta ordenado de la siguiente forma:
 
--
-
-  |-
-
-  |-
-  
-  |-
-  
-  |-
-  
-    |-
-
--Una imagen que muestra la comparacion entre versiones paralelas.
-
 ```bash
 
 ├── Una carpeta para cada version
