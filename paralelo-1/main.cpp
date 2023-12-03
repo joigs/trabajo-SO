@@ -76,9 +76,6 @@ int main(int argc, char** argv) {
     float duration2 = duration.count() / 1000000.0f;
     cout << "Total time spent in seconds is " << duration2 << endl;
 
-    namedWindow(argv[2], WINDOW_AUTOSIZE);
-    imshow(argv[2], newImage);
-    waitKey(0);
 
     return 0;
 }

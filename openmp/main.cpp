@@ -38,7 +38,6 @@ int main(int argc, char** argv) {
     cout << "Start conversion ..." << endl;
     // read each pixel (RGB pixel)
 
-
     #pragma omp parallel num_threads(n_threads)
     {
         #pragma omp for private(c,gray)
@@ -60,10 +59,6 @@ int main(int argc, char** argv) {
     auto duration = duration_cast<microseconds>(stop - start);
     float duration2 = duration.count() / 1000000.0f;
     cout << "Total time spent in seconds is " << duration2 << endl;
-
-    //namedWindow(argv[2], WINDOW_AUTOSIZE );
-    //imshow(argv[2], newImage);
-    //waitKey(0);
 
     return 0;
 }
