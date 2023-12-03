@@ -21,7 +21,7 @@ seguido de:
 
 ```make```
 
-#Ejecucion:
+## Ejecucion:
 
 Para ejecutarlo debe tener una imagen dentro del directorio build, entonces todavia estando en el directorio build debe escribir un comando con el siguiente formato, remplazando los <> con sus propios datos:
 
