@@ -1,6 +1,6 @@
 # version OpenMP
 
-Requisitos:
+## Requisitos:
 
 compilador g++
 
