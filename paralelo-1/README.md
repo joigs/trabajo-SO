@@ -1,6 +1,6 @@
 # version paralelo-1 (threads)
 
-Requisitos:
+## Requisitos:
 
 compilador g++
 
