@@ -10,6 +10,7 @@ Para compilar la version secuencial primeramente debe abrir la terminal y situar
 ```cd trabajo-SO/secuencial/build```
 
 una vez situado en ese directorio, se compila con los comandos:
+
 ```cmake ..```
 
 seguido de:
