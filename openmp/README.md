@@ -24,7 +24,7 @@ seguido de:
 
 ## Ejecucion:
 
- para ejecutarlo debe tener una imagen dentro del directorio build, entonces todavia estando en el directorio build debe escribir un comando con el siguiente formato, remplazando los <> con sus propios datos:
+Para ejecutarlo debe tener una imagen dentro del directorio build, entonces todavia estando en el directorio build debe escribir un comando con el siguiente formato, remplazando los <> con sus propios datos:
 
 ```./openmp <nombre_de_imagen_original>.<extension_de_la_imagen> <nombre_de_la_imagen_a_generar>.<extension_de_la_imagen_a_generar> <N°_de_hilos>```
 
