@@ -14,6 +14,7 @@ El repositorio esta ordenado de la siguiente forma:
 ```
 
 La imagen usada para registrar los tiempos se encuentra en https://upload.wikimedia.org/wikipedia/commons/6/6d/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg.
+
 Por el peso de la imagen solo se uso para registrar los tiempos y no se subio al repositorio, en su lugar se subió una imagen de poco peso.
 
 
