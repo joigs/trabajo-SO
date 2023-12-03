@@ -6,11 +6,15 @@ libreria opencv
 CMake
 
 Para compilar la version paralela usando OpenMP primeramente debe abrir la terminal y situarse en la direccion donde descargó el repositorio, entonces escribir el comando:
+
 ```cd trabajo-SO/openmp/build```
 
 una vez situado en ese directorio, se compila con los comandos:
+
 ```cmake ..```
+
 seguido de:
+
 ```make```
 
 con eso el codigo ya esta compilado, para ejecutarlo debe tener una imagen dentro del directorio build, entonces todavia estando en el directorio build debe escribir un comando con el siguiente formato, remplazando los <> con sus propios datos:
