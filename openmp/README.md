@@ -1,8 +1,11 @@
 # version OpenMP
 
 Requisitos:
+
 compilador g++
+
 libreria opencv
+
 CMake
 
 Para compilar la version paralela usando OpenMP primeramente debe abrir la terminal y situarse en la direccion donde descargó el repositorio, entonces escribir el comando:
