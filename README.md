@@ -9,7 +9,8 @@ El repositorio esta ordenado de la siguiente forma:
 │   ├── Un archivo txt que es el CmakeLists que se usara para compilar
 │   ├── Un archivo README que muestra la compilación para cada versión
 │   ├── Una carpeta build donde se creará el ejecutable
-│   │   ├── Imagen 
+│   │   ├── Imagen
+├── Archivo README
 └── Una imagen que muestra la comparacion entre versiones paralelas
 ```
 
