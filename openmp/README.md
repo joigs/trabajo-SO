@@ -8,7 +8,7 @@ libreria opencv
 
 CMake
 
-##Compilacion:
+## Compilacion:
 
 Para compilar la version paralela usando OpenMP primeramente debe abrir la terminal y situarse en la direccion donde descargó el repositorio, entonces escribir el comando:
 
@@ -22,7 +22,7 @@ seguido de:
 
 ```make```
 
-##Ejecucion:
+## Ejecucion:
 
  para ejecutarlo debe tener una imagen dentro del directorio build, entonces todavia estando en el directorio build debe escribir un comando con el siguiente formato, remplazando los <> con sus propios datos:
 
